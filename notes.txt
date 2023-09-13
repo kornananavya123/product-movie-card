@@ -1,0 +1,36 @@
+Q1: What is Hooks?
+ -> Hooks are special functions that start with 'use' which is a keyword in React Hooks. 
+ -> They let us to "hook into" React Features like state.
+ -> It is just Javascript functions.
+ -> React Hooks are a feature introduced in React 16.8 since 2018.
+ -> React Hooks are used in only Functional Components.
+ -> Not used in class-based components.
+ -> Some Hooks are given by React itself.
+ -> We can also create our own custom hooks
+
+Q2: How many Hooks ?
+A: 
+(i) There are built-in Hooks predefined by React. They are:-
+ -> useState
+ -> useEffect
+ -> useReducer
+ -> useCallback
+ -> useMemo
+ -> useRef
+ -> useContext etc.
+(ii) There are also custom Hooks which can be created on our own also.
+
+Q3:What is useState hook ?
+ -> SYNTAX: const [X, setX] = useState(0);
+      - Here 0 is initialValue  passed as argument, 
+      - X is state variable &
+      - setX is state setter function which triggers to update state variables to Re-render at DOM & UI.
+      - X & setX are Destructured
+
+ -> State variables are created in functional components only by calling the 'useState Hook'.
+ -> Use this state variable when we need React component to "REMEMBER" some information beteween renders.
+ -> State Variables & State Management
+ -> Why should not use Local Variables & why should use State Variables?
+ -> As Local Variables do not make React to NOT remember to update at DOM & UI to show updated information at client-side.
+ -> useState defines state variables which makes React to remember.
+ -> useState also defines setter set State functions which is used not only to re-render but also update at DOM & UI by incrementing on each event takes place.
